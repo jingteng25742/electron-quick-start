@@ -5,8 +5,8 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "pack": "electron-builder --dir",
-    "dist": "electron-builder"
+    "pack": "electron-builder --dir --publish=never",
+    "dist": "electron-builder --publish=never"
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
