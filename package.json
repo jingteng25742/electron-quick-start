@@ -21,5 +21,11 @@
   "devDependencies": {
     "electron": "^17.0.1",
     "electron-builder": "^22.14.13"
+  },
+  "build": {
+    "appId": "com.example.app",
+    "electronDownload": {
+      "cache": "./.electron-cache"
+    }
   }
 }
